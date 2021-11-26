@@ -2,12 +2,12 @@ class Portcullis < Formula
   include Language::Python::Virtualenv
   # cite Mapleson_2017: "https://www.biorxiv.org/content/early/2017/11/10/217620"
   desc "Genuine splice junction prediction from BAM files"
-  homepage "https://github.com/maplesond/portcullis"
-  url "https://github.com/maplesond/portcullis/archive/Release-1.1.0.tar.gz"
-  sha256 "872c0dbd7515229ecc22c9bdcd72eb78dfe93a3c0bfd14af52c448c142fe892a"
-  license "GPL-3.0"
+  homepage "https://github.com/ei-corebioinformatics/portcullis"
+  url "https://github.com/ei-corebioinformatics/portcullis/archive/refs/tags/Release-1.2.3.tar.gz"
+  sha256 "172452b5cef12a8dcc2c1c68527000743114136ee63a0dbe307ac4e2a816bc99"
+  license "GPL-3.0-only"
   revision 1
-  head "https://github.com/maplesond/portcullis.git"
+  head "https://github.com/ei-corebioinformatics/portcullis.git"
 
   livecheck do
     url :stable
