@@ -23,8 +23,8 @@ class Portcullis < Formula
   depends_on "automake" => :build
   depends_on "libtool" => :build
 
-  depends_on "gcc" # for gfortran
   depends_on "boost"
+  depends_on "gcc" # for gfortran
   depends_on "numpy"
   depends_on "python@3.9"
   depends_on "samtools"
